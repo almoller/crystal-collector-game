@@ -1,0 +1,37 @@
+body {
+    background-image: url("../images/congruent_outline.png")
+}
+
+h1 {
+    margin: 30px;
+    text-align: center;
+    font-size: 36pt;
+    background: lightseagreen;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.infoSection {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    background: lavender;
+    height: 100px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+#testButton {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    text-align: center;
+    color: #fff;
+    background: darkslategray;
+    border-radius: 10px;
+}
+
+#buttonText {
+    margin-top: 15px;
+}
