@@ -18,20 +18,49 @@
 
     <h1 id="header">Crystal Collector</h1>
 
-    <div class="container">
+    <div class="wrapper">
 
         <div class="infoSection">
-            <button id="testButton">test button</button>
             <div>
-                <h2 id="buttonText">Placeholder Text</h2>
+                <p id="infoText">
+                    You will be given a random number. Each crystal contains a random hidden value.
+                    Click on each crystal to add it's value to your Number Sum.
+                </p><p>
+                    Your goal is to collect the right combination of crystals so your number sum
+                    is equal to the given number.
+                </p><p>
+                    If you can match the the given number exactly, you get a win.
+                </p><p>
+                    If your number sum becomes greater than the given number, you get a loss.
+                </p>
             </div>
+            <button id="startButton">Start</button>
         </div>
 
+        <div class="gameStats">
+            <ul>
+                <li>
+                    <h3>Wins: <span id="wins"></span></h3>
+                </li>
+                <li>
+                    <h3>Losses: <span id="losses"></span></h3>
+                </li>
+            </ul>
+        </div>
+
+        <div class="numbers">
+            <h3>Your Goal is: <span id="numberToMatch"></span></h3>
+            <hr>
+            <h3>Your Number Sum is: <span id="numberTotal"></span></h3>
+        </div>
+
+        
+
         <div class="gemSection">
-            <img src="assets/images/purpleCrystal.png" alt="Purple Crystal" id="purpleCrystal" width="100px" height="100px">
-            <img src="assets/images/greenCrystal.png" alt="Green Crystal" id="greenCrystal" width="100px" height="100px">
-            <img src="assets/images/redCrystal.png" alt="Red Crystal" id="redCrystal" width="100px" height="100px">
-            <img src="assets/images/blueCrystal.png" alt="Blue Crystal" id="blueCrystal" width="100px" height="100px">
+            <img src="assets/images/purpleCrystal.png" alt="Purple Crystal" id="purpleCrystal" class="gem" width="100px" height="100px">
+            <img src="assets/images/greenCrystal.png" alt="Green Crystal" id="greenCrystal" class="gem" width="100px" height="100px">
+            <img src="assets/images/redCrystal.png" alt="Red Crystal" id="redCrystal" class="gem" width="100px" height="100px">
+            <img src="assets/images/blueCrystal.png" alt="Blue Crystal" id="blueCrystal" class="gem" width="100px" height="100px">
             <!--<img src="assets/images/whiteCrystal.jpg" alt="White Crystal" id="whiteCrystal" width="100px" height="100px"> -->
         </div>
     </div>
