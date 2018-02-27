@@ -23,33 +23,6 @@ $("#numberToMatch").html(numberGoal);
 
 
 
-// process click events on each crystal
-/*
-$("#purpleCrystal").on("click", function() {
-    numberTotal = numberTotal + purpleVal;
-    $("#numberTotal").html(numberTotal);
-    checkStatus();
-});
-
-$("#greenCrystal").on("click", function() {
-    numberTotal = numberTotal + greenVal;
-    $("#numberTotal").html(numberTotal); 
-    checkStatus();
-});
-
-$("#redCrystal").on("click", function() {
-    numberTotal = numberTotal + redVal;
-    $("#numberTotal").html(numberTotal); 
-    checkStatus();
-});
-
-$("#blueCrystal").on("click", function() {
-    numberTotal = numberTotal + blueVal;
-    $("#numberTotal").html(numberTotal);
-    checkStatus(); 
-});
-*/
-
 //// FUNCTIONS ////
 
 function activateCrystals() {

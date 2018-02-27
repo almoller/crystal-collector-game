@@ -8,7 +8,7 @@ body {
 h1 {
     display: block;
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     text-align: center;
     font-size: 36pt;
     background: lightseagreen;
@@ -22,7 +22,7 @@ h1 {
     text-align: center;
     margin: 0 auto;
     padding: 20px 0;
-    background: lavender;
+    background: #fff;
     height: 100%;
     width: 700px;
     border-radius: 10px;
@@ -36,6 +36,8 @@ h1 {
     color: #fff;
     background: darkslategray;
     border-radius: 10px;
+    border: none;
+    font-size: 14pt;
 }
 
 #infoText {
@@ -43,14 +45,16 @@ h1 {
 }
 
 .infoSection p {
-    margin: 10px 75px;
-    line-height: 20px;
+    margin: 10px 80px;
+    line-height: 22px;
     text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 14pt;
 }
 
 .gameStats {
     float: right;
-    margin-top: 50px;
+    margin-top: 66px;
     padding: 13px 0;
     text-align: center;
     font-weight: bold;
@@ -77,6 +81,19 @@ h1 {
     font-size: 18px;
 }
 
+#numberGoalText {
+    margin-bottom: 20px;
+}
+
+#numberSumText {
+    margin-top: 20px;
+}
+
+#numberToMatch,
+#numberTotal {
+    font-size: 18pt;
+}
+
 .gemSection {
     clear: both;
     display: block;
@@ -85,7 +102,7 @@ h1 {
     padding: 20px 0;
     text-align: center;
     width: 700px;
-    background: lavender;
+    background: #fff;
 }
 
 #purpleCrystal,
@@ -94,4 +111,58 @@ h1 {
 #blueCrystal,
 #whiteCrystal {
     margin: 0 20px;
+}
+
+
+
+/* 640px MEDIA QUERIE */
+
+@media screen and (max-width: 700px) {
+    body,
+    h1,
+    .infoSection,
+    .gemSection,
+    .numbers,
+    .gameStats {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .infoSection p {
+        margin: 10px 50px;
+    }
+
+    .gameStats {        
+        margin-top: 25px;
+    }
+
+    .gameStats ul {
+        margin-left: 50px;
+    }
+
+    .gameStats li {
+        margin: 0 35px;
+    }
+
+    .numbers {
+        margin: 0;
+    }
+    .numbers h3 {
+        margin: 0 0 0 105px;
+    }
+
+    .numbers hr {
+        margin-left: 40px;
+    }
+
+    #purpleCrystal,
+    #greenCrystal,
+    #redCrystal,
+    #blueCrystal,
+    #whiteCrystal {
+        margin: 10px 30px;
+    }
+    
+
+
 }
