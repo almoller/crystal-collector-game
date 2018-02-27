@@ -38,6 +38,7 @@ h1 {
     border-radius: 10px;
     border: none;
     font-size: 14pt;
+    margin-top: 20px;
 }
 
 #infoText {
@@ -115,7 +116,7 @@ h1 {
 
 
 
-/* 640px MEDIA QUERIE */
+/* MEDIA QUERIE */
 
 @media screen and (max-width: 700px) {
     body,
@@ -128,12 +129,24 @@ h1 {
         border-radius: 0;
     }
 
+    .gameStats,
+    .numbers {
+        margin: 0;
+        float: none;
+    }
+
+    .infoSection,
+    .gemSection {
+        padding: 20px;
+    }
+
     .infoSection p {
         margin: 10px 50px;
     }
 
     .gameStats {        
         margin-top: 25px;
+        padding: 20px 20px 35px 20px;
     }
 
     .gameStats ul {
@@ -145,14 +158,20 @@ h1 {
     }
 
     .numbers {
-        margin: 0;
+        padding: 20px 40px 20px 0;
     }
+
+    
     .numbers h3 {
         margin: 0 0 0 105px;
     }
 
     .numbers hr {
         margin-left: 40px;
+    }
+
+    .gemSection {
+        margin-top: 0;
     }
 
     #purpleCrystal,
